@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		004DC40020BB9EF600D4D075 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 004DC3FF20BB9EF600D4D075 /* AppDelegate.m */; };
+		004DC40320BB9EF600D4D075 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 004DC40220BB9EF600D4D075 /* ViewController.m */; };
+		004DC40620BB9EF600D4D075 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 004DC40420BB9EF600D4D075 /* Main.storyboard */; };
+		004DC40820BB9EFC00D4D075 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 004DC40720BB9EFC00D4D075 /* Assets.xcassets */; };
+		004DC40B20BB9EFC00D4D075 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 004DC40920BB9EFC00D4D075 /* LaunchScreen.storyboard */; };
+		004DC40E20BB9EFC00D4D075 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 004DC40D20BB9EFC00D4D075 /* main.m */; };
+		004DC41820BB9EFC00D4D075 /* DQCardBannerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 004DC41720BB9EFC00D4D075 /* DQCardBannerViewTests.m */; };
+		004DC42320BB9EFC00D4D075 /* DQCardBannerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 004DC42220BB9EFC00D4D075 /* DQCardBannerViewUITests.m */; };
+		004DC43520BBA4ED00D4D075 /* DQCardBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 004DC43420BBA4ED00D4D075 /* DQCardBannerView.m */; };
+		004DC43820BBF8EF00D4D075 /* DQCardBannerViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 004DC43720BBF8EF00D4D075 /* DQCardBannerViewCell.m */; };
+		00E8E41020DC92BF0007664B /* CollectionFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E8E40E20DC92BF0007664B /* CollectionFlowLayout.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		004DC41420BB9EFC00D4D075 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 004DC3F320BB9EF500D4D075 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 004DC3FA20BB9EF600D4D075;
+			remoteInfo = DQCardBannerView;
+		};
+		004DC41F20BB9EFC00D4D075 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 004DC3F320BB9EF500D4D075 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 004DC3FA20BB9EF600D4D075;
+			remoteInfo = DQCardBannerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		004DC3FB20BB9EF600D4D075 /* DQCardBannerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DQCardBannerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		004DC3FE20BB9EF600D4D075 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		004DC3FF20BB9EF600D4D075 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		004DC40120BB9EF600D4D075 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		004DC40220BB9EF600D4D075 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		004DC40520BB9EF600D4D075 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		004DC40720BB9EFC00D4D075 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		004DC40A20BB9EFC00D4D075 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		004DC40C20BB9EFC00D4D075 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		004DC40D20BB9EFC00D4D075 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		004DC41320BB9EFC00D4D075 /* DQCardBannerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DQCardBannerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		004DC41720BB9EFC00D4D075 /* DQCardBannerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DQCardBannerViewTests.m; sourceTree = "<group>"; };
+		004DC41920BB9EFC00D4D075 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		004DC41E20BB9EFC00D4D075 /* DQCardBannerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DQCardBannerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		004DC42220BB9EFC00D4D075 /* DQCardBannerViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DQCardBannerViewUITests.m; sourceTree = "<group>"; };
+		004DC42420BB9EFC00D4D075 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		004DC43320BBA4ED00D4D075 /* DQCardBannerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DQCardBannerView.h; sourceTree = "<group>"; };
+		004DC43420BBA4ED00D4D075 /* DQCardBannerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DQCardBannerView.m; sourceTree = "<group>"; };
+		004DC43620BBF8EF00D4D075 /* DQCardBannerViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DQCardBannerViewCell.h; sourceTree = "<group>"; };
+		004DC43720BBF8EF00D4D075 /* DQCardBannerViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DQCardBannerViewCell.m; sourceTree = "<group>"; };
+		00E8E40E20DC92BF0007664B /* CollectionFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionFlowLayout.m; sourceTree = "<group>"; };
+		00E8E40F20DC92BF0007664B /* CollectionFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionFlowLayout.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		004DC3F820BB9EF600D4D075 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		004DC41020BB9EFC00D4D075 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		004DC41B20BB9EFC00D4D075 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		004DC3F220BB9EF500D4D075 = {
+			isa = PBXGroup;
+			children = (
+				004DC3FD20BB9EF600D4D075 /* DQCardBannerView */,
+				004DC41620BB9EFC00D4D075 /* DQCardBannerViewTests */,
+				004DC42120BB9EFC00D4D075 /* DQCardBannerViewUITests */,
+				004DC3FC20BB9EF600D4D075 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		004DC3FC20BB9EF600D4D075 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				004DC3FB20BB9EF600D4D075 /* DQCardBannerView.app */,
+				004DC41320BB9EFC00D4D075 /* DQCardBannerViewTests.xctest */,
+				004DC41E20BB9EFC00D4D075 /* DQCardBannerViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		004DC3FD20BB9EF600D4D075 /* DQCardBannerView */ = {
+			isa = PBXGroup;
+			children = (
+				004DC3FE20BB9EF600D4D075 /* AppDelegate.h */,
+				004DC3FF20BB9EF600D4D075 /* AppDelegate.m */,
+				004DC40120BB9EF600D4D075 /* ViewController.h */,
+				004DC40220BB9EF600D4D075 /* ViewController.m */,
+				004DC43320BBA4ED00D4D075 /* DQCardBannerView.h */,
+				004DC43420BBA4ED00D4D075 /* DQCardBannerView.m */,
+				004DC43620BBF8EF00D4D075 /* DQCardBannerViewCell.h */,
+				004DC43720BBF8EF00D4D075 /* DQCardBannerViewCell.m */,
+				00E8E40F20DC92BF0007664B /* CollectionFlowLayout.h */,
+				00E8E40E20DC92BF0007664B /* CollectionFlowLayout.m */,
+				004DC40420BB9EF600D4D075 /* Main.storyboard */,
+				004DC40720BB9EFC00D4D075 /* Assets.xcassets */,
+				004DC40920BB9EFC00D4D075 /* LaunchScreen.storyboard */,
+				004DC40C20BB9EFC00D4D075 /* Info.plist */,
+				004DC40D20BB9EFC00D4D075 /* main.m */,
+			);
+			path = DQCardBannerView;
+			sourceTree = "<group>";
+		};
+		004DC41620BB9EFC00D4D075 /* DQCardBannerViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				004DC41720BB9EFC00D4D075 /* DQCardBannerViewTests.m */,
+				004DC41920BB9EFC00D4D075 /* Info.plist */,
+			);
+			path = DQCardBannerViewTests;
+			sourceTree = "<group>";
+		};
+		004DC42120BB9EFC00D4D075 /* DQCardBannerViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				004DC42220BB9EFC00D4D075 /* DQCardBannerViewUITests.m */,
+				004DC42420BB9EFC00D4D075 /* Info.plist */,
+			);
+			path = DQCardBannerViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		004DC3FA20BB9EF600D4D075 /* DQCardBannerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 004DC42720BB9EFC00D4D075 /* Build configuration list for PBXNativeTarget "DQCardBannerView" */;
+			buildPhases = (
+				004DC3F720BB9EF600D4D075 /* Sources */,
+				004DC3F820BB9EF600D4D075 /* Frameworks */,
+				004DC3F920BB9EF600D4D075 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DQCardBannerView;
+			productName = DQCardBannerView;
+			productReference = 004DC3FB20BB9EF600D4D075 /* DQCardBannerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		004DC41220BB9EFC00D4D075 /* DQCardBannerViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 004DC42A20BB9EFC00D4D075 /* Build configuration list for PBXNativeTarget "DQCardBannerViewTests" */;
+			buildPhases = (
+				004DC40F20BB9EFC00D4D075 /* Sources */,
+				004DC41020BB9EFC00D4D075 /* Frameworks */,
+				004DC41120BB9EFC00D4D075 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				004DC41520BB9EFC00D4D075 /* PBXTargetDependency */,
+			);
+			name = DQCardBannerViewTests;
+			productName = DQCardBannerViewTests;
+			productReference = 004DC41320BB9EFC00D4D075 /* DQCardBannerViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		004DC41D20BB9EFC00D4D075 /* DQCardBannerViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 004DC42D20BB9EFC00D4D075 /* Build configuration list for PBXNativeTarget "DQCardBannerViewUITests" */;
+			buildPhases = (
+				004DC41A20BB9EFC00D4D075 /* Sources */,
+				004DC41B20BB9EFC00D4D075 /* Frameworks */,
+				004DC41C20BB9EFC00D4D075 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				004DC42020BB9EFC00D4D075 /* PBXTargetDependency */,
+			);
+			name = DQCardBannerViewUITests;
+			productName = DQCardBannerViewUITests;
+			productReference = 004DC41E20BB9EFC00D4D075 /* DQCardBannerViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		004DC3F320BB9EF500D4D075 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = DQ;
+				TargetAttributes = {
+					004DC3FA20BB9EF600D4D075 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					004DC41220BB9EFC00D4D075 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 004DC3FA20BB9EF600D4D075;
+					};
+					004DC41D20BB9EFC00D4D075 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 004DC3FA20BB9EF600D4D075;
+					};
+				};
+			};
+			buildConfigurationList = 004DC3F620BB9EF500D4D075 /* Build configuration list for PBXProject "DQCardBannerView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 004DC3F220BB9EF500D4D075;
+			productRefGroup = 004DC3FC20BB9EF600D4D075 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				004DC3FA20BB9EF600D4D075 /* DQCardBannerView */,
+				004DC41220BB9EFC00D4D075 /* DQCardBannerViewTests */,
+				004DC41D20BB9EFC00D4D075 /* DQCardBannerViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		004DC3F920BB9EF600D4D075 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				004DC40B20BB9EFC00D4D075 /* LaunchScreen.storyboard in Resources */,
+				004DC40820BB9EFC00D4D075 /* Assets.xcassets in Resources */,
+				004DC40620BB9EF600D4D075 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		004DC41120BB9EFC00D4D075 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		004DC41C20BB9EFC00D4D075 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		004DC3F720BB9EF600D4D075 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				004DC40320BB9EF600D4D075 /* ViewController.m in Sources */,
+				004DC43520BBA4ED00D4D075 /* DQCardBannerView.m in Sources */,
+				004DC43820BBF8EF00D4D075 /* DQCardBannerViewCell.m in Sources */,
+				00E8E41020DC92BF0007664B /* CollectionFlowLayout.m in Sources */,
+				004DC40E20BB9EFC00D4D075 /* main.m in Sources */,
+				004DC40020BB9EF600D4D075 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		004DC40F20BB9EFC00D4D075 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				004DC41820BB9EFC00D4D075 /* DQCardBannerViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		004DC41A20BB9EFC00D4D075 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				004DC42320BB9EFC00D4D075 /* DQCardBannerViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		004DC41520BB9EFC00D4D075 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 004DC3FA20BB9EF600D4D075 /* DQCardBannerView */;
+			targetProxy = 004DC41420BB9EFC00D4D075 /* PBXContainerItemProxy */;
+		};
+		004DC42020BB9EFC00D4D075 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 004DC3FA20BB9EF600D4D075 /* DQCardBannerView */;
+			targetProxy = 004DC41F20BB9EFC00D4D075 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		004DC40420BB9EF600D4D075 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				004DC40520BB9EF600D4D075 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		004DC40920BB9EFC00D4D075 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				004DC40A20BB9EFC00D4D075 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		004DC42520BB9EFC00D4D075 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		004DC42620BB9EFC00D4D075 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		004DC42820BB9EFC00D4D075 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = DQCardBannerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dq.DQCardBannerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		004DC42920BB9EFC00D4D075 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = DQCardBannerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dq.DQCardBannerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		004DC42B20BB9EFC00D4D075 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DQCardBannerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dq.DQCardBannerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DQCardBannerView.app/DQCardBannerView";
+			};
+			name = Debug;
+		};
+		004DC42C20BB9EFC00D4D075 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DQCardBannerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dq.DQCardBannerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DQCardBannerView.app/DQCardBannerView";
+			};
+			name = Release;
+		};
+		004DC42E20BB9EFC00D4D075 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DQCardBannerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dq.DQCardBannerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DQCardBannerView;
+			};
+			name = Debug;
+		};
+		004DC42F20BB9EFC00D4D075 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DQCardBannerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dq.DQCardBannerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DQCardBannerView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		004DC3F620BB9EF500D4D075 /* Build configuration list for PBXProject "DQCardBannerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				004DC42520BB9EFC00D4D075 /* Debug */,
+				004DC42620BB9EFC00D4D075 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		004DC42720BB9EFC00D4D075 /* Build configuration list for PBXNativeTarget "DQCardBannerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				004DC42820BB9EFC00D4D075 /* Debug */,
+				004DC42920BB9EFC00D4D075 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		004DC42A20BB9EFC00D4D075 /* Build configuration list for PBXNativeTarget "DQCardBannerViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				004DC42B20BB9EFC00D4D075 /* Debug */,
+				004DC42C20BB9EFC00D4D075 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		004DC42D20BB9EFC00D4D075 /* Build configuration list for PBXNativeTarget "DQCardBannerViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				004DC42E20BB9EFC00D4D075 /* Debug */,
+				004DC42F20BB9EFC00D4D075 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 004DC3F320BB9EF500D4D075 /* Project object */;
+}
